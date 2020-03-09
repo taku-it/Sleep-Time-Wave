@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A844EF9E23DBF40200B37EAA /* UserInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A844EF9D23DBF40200B37EAA /* UserInformationViewController.swift */; };
+		A84ED20E2409C057000BA241 /* chicken-cry1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A84ED20D2409C056000BA241 /* chicken-cry1.mp3 */; };
+		C02DB24E23CAD8000010D9FC /* mainpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02DB24D23CAD8000010D9FC /* mainpageViewController.swift */; };
 		C0FCD06523AF086000139FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FCD06423AF086000139FA5 /* AppDelegate.swift */; };
 		C0FCD06723AF086000139FA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FCD06623AF086000139FA5 /* SceneDelegate.swift */; };
 		C0FCD06923AF086000139FA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FCD06823AF086000139FA5 /* ViewController.swift */; };
@@ -15,6 +18,7 @@
 		C0FCD07123AF086200139FA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FCD06F23AF086200139FA5 /* LaunchScreen.storyboard */; };
 		C0FCD07C23AF086200139FA5 /* Sleep_Time_WaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FCD07B23AF086200139FA5 /* Sleep_Time_WaveTests.swift */; };
 		C0FCD08723AF086200139FA5 /* Sleep_Time_WaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FCD08623AF086200139FA5 /* Sleep_Time_WaveUITests.swift */; };
+		C0FCD09523AF153600139FA5 /* settei2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FCD09423AF153600139FA5 /* settei2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A844EF9D23DBF40200B37EAA /* UserInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationViewController.swift; sourceTree = "<group>"; };
+		A84ED20D2409C056000BA241 /* chicken-cry1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "chicken-cry1.mp3"; sourceTree = "<group>"; };
+		C02DB24D23CAD8000010D9FC /* mainpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainpageViewController.swift; sourceTree = "<group>"; };
 		C0FCD06123AF086000139FA5 /* Sleep Time Wave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleep Time Wave.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FCD06423AF086000139FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0FCD06623AF086000139FA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		C0FCD08223AF086200139FA5 /* Sleep Time WaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sleep Time WaveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FCD08623AF086200139FA5 /* Sleep_Time_WaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep_Time_WaveUITests.swift; sourceTree = "<group>"; };
 		C0FCD08823AF086200139FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FCD09423AF153600139FA5 /* settei2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settei2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,13 @@
 		C0FCD06323AF086000139FA5 /* Sleep Time Wave */ = {
 			isa = PBXGroup;
 			children = (
+				A84ED20D2409C056000BA241 /* chicken-cry1.mp3 */,
 				C0FCD06423AF086000139FA5 /* AppDelegate.swift */,
 				C0FCD06623AF086000139FA5 /* SceneDelegate.swift */,
 				C0FCD06823AF086000139FA5 /* ViewController.swift */,
+				C0FCD09423AF153600139FA5 /* settei2ViewController.swift */,
+				C02DB24D23CAD8000010D9FC /* mainpageViewController.swift */,
+				A844EF9D23DBF40200B37EAA /* UserInformationViewController.swift */,
 				C0FCD06A23AF086000139FA5 /* Main.storyboard */,
 				C0FCD06D23AF086200139FA5 /* Assets.xcassets */,
 				C0FCD06F23AF086200139FA5 /* LaunchScreen.storyboard */,
@@ -235,6 +247,7 @@
 				C0FCD07123AF086200139FA5 /* LaunchScreen.storyboard in Resources */,
 				C0FCD06E23AF086200139FA5 /* Assets.xcassets in Resources */,
 				C0FCD06C23AF086000139FA5 /* Main.storyboard in Resources */,
+				A84ED20E2409C057000BA241 /* chicken-cry1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0FCD06923AF086000139FA5 /* ViewController.swift in Sources */,
+				C02DB24E23CAD8000010D9FC /* mainpageViewController.swift in Sources */,
+				C0FCD09523AF153600139FA5 /* settei2ViewController.swift in Sources */,
 				C0FCD06523AF086000139FA5 /* AppDelegate.swift in Sources */,
+				A844EF9E23DBF40200B37EAA /* UserInformationViewController.swift in Sources */,
 				C0FCD06723AF086000139FA5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,14 +450,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z27GRUV329;
 				INFOPLIST_FILE = "Sleep Time Wave/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Takuto0124.Sleep-Time-Wave";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takuto0124.Sleep-Time-Wave";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,14 +470,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z27GRUV329;
 				INFOPLIST_FILE = "Sleep Time Wave/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Takuto0124.Sleep-Time-Wave";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takuto0124.Sleep-Time-Wave";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,6 +492,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Sleep Time WaveTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -491,6 +514,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Sleep Time WaveTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +535,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Sleep Time WaveUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -530,6 +555,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Sleep Time WaveUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
